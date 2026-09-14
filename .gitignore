@@ -1,0 +1,31 @@
+# Python virtual environment & cache
+backend/.venv/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node dependencies & build
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Local database & temp uploads
+*.db
+*.sqlite
+*.sqlite3
+backend/cropguardian.db
+data/uploads/*
+!data/uploads/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
